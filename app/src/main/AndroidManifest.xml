@@ -13,7 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.P10"
         tools:targetApi="31">
-
+        <activity
+            android:name=".Person_item_viewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonAdapterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HttpRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -27,7 +41,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY" />
+            android:value="AIzaSyAGUp3_1spMYJbxuh0OtHqyc0QsKHXCeMY" />
 
         <activity
             android:name=".MapsActivity"
